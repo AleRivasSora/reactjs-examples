@@ -1,0 +1,100 @@
+.Calculadora {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+    background-color: black;
+    font-family: Lato, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora-contenedor {
+    width: 400px;
+    height: 600px;
+    padding: 14px;
+    background-color: cadetblue;
+    border-radius: 20px;
+    border: 5px solid white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+    
+}
+
+.boton-contenedor {
+    height: 83px;
+    width: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 38px;
+    background-color: rgb(6, 32, 110);
+    border-radius: 25px;
+    border: 2px solid white;
+    color: azure;
+    margin: 5px;
+    margin-top: 7px;
+    cursor: pointer;
+    user-select: none;
+    flex: 1 1 25%;
+
+}
+
+.boton-contenedor:hover {
+    background-color: blueviolet;
+}
+.operador{
+    background-color: seagreen;
+}
+
+.operador:hover {
+    background-color: chocolate;
+}
+
+.ShowNum {
+    height: 75px;
+    width: 150px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 11px 30px 11px 11px;
+    margin: 1px solid #888;
+    flex-basis: 100%;
+    box-shadow: -1px 4px 1px 1px white;
+    
+}
+
+.clear-boton {
+    height: 80px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: brown;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: azure;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 35px;
+    border: 1px;
+}
+
+.clear-boton:hover {
+    background-color: rgb(46, 5, 5);
+}
